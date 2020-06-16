@@ -4,6 +4,17 @@
 * {
 	box-sizing: border-box;
 }
+.container{
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+}
+
+.fab{
+    margin: 0 3px;
+}
 
 body {
 	background: #EFEFBB;
