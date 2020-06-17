@@ -10,7 +10,13 @@
 </head>
 <body>
     <div class="container">
-        <h1>PokeDex for more than 1000 pokemon</h1>
+        <h1>Search your Pokemon</h1>
+        <input type="text" name="pokemonnameid" id="searchinput" placeholder="Search..">
+        <br>
+        <button type="submit" id="get">Search</button>
+        <br>
+        <button id="searchbutton"><a href="index.html">View all Pokemon</a></button>
+        <div id="singlepoke" class="singlepoke-container"></div>
         <div class="social">
             <a target="_blank" href="https://github.com/Mustafiz04"><i class="fab fa-github text-dark fa-2x"></i></i></a>
             <a target="_blank" href="https://www.linkedin.com/in/mustafiz-kaifee-91b182190"><i class="fab fa-linkedin fa-2x"></i></a>
@@ -19,9 +25,7 @@
             Made with ❤ by <a href="https://mustafizkaifee.herokuapp.com/" target="_blank">Mustafiz Kaifee</a>
         </div>
     </div>
-    <button id="searchbutton"><a href="search.html"><i class="fa fa-search"></i> Search a Pokemon</a></button>
-    <div id="poke_container" class="poke-container"></div>
 
-    <script src="index.js"></script>
+    <script src="search.js"></script>
 </body>
 </html>
