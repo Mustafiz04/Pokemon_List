@@ -9,7 +9,7 @@
 }
 
 a{
-    text-decoration: none;
+	text-decoration: none;
 }
 
 .fab{
@@ -57,6 +57,7 @@ h1 {
 	width: 120px;
 	height: 120px;
 	text-align: center;
+	margin: 0 auto;
 }
 
 .pokemon .img-container img {
