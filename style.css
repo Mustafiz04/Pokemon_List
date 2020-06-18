@@ -138,3 +138,15 @@ h1 {
 	float: right;
 	padding-right: 5px;
 }
+
+.fa-instagram{
+	color: #F56040;
+}
+
+.fa-linkedin{
+	color: #0e76a8;
+}
+
+.fa-github{
+	color: #333;
+}
