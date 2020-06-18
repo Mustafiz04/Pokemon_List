@@ -8,6 +8,10 @@
     text-align: center;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 a{
 	text-decoration: none;
 }
@@ -108,4 +112,29 @@ h1 {
 }
 #get:focus{
 	outline: none;
+}
+
+
+#mybtn{
+    display: none;
+    position: fixed;
+    bottom: 30px;
+    right: 40px;
+    z-index: 99;
+    border: none;
+    outline: none;
+    background-color: #D4D3DD;
+    color: white;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+#mybtn:hover{
+    background: #606060;
+}
+ 
+#scroll{
+	float: right;
+	padding-right: 5px;
 }
