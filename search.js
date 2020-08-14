@@ -76,5 +76,5 @@ function createPokemonCard(pokemon) {
 var get = document.getElementById('get');
 get.addEventListener('click', () => {
     var pokemonnameid = document.getElementById("searchinput").value;
-    fetchPokemons(pokemonnameid);
+    fetchPokemons(pokemonnameid.toLowerCase());
 })
